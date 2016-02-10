@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3fc55630-18fe-40ad-bf6b-52e7fd140519" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:1129/BookReviewLoginService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="BookReviewLoginService.xsd" MetadataType="Schema" ID="cda16020-db7a-4742-9bee-ce38ecfe453d" SourceId="1" SourceUrl="http://localhost:1129/BookReviewLoginService.svc?xsd=xsd1" />
+    <MetadataFile FileName="BookReviewLoginService1.xsd" MetadataType="Schema" ID="923ccf43-9d4a-489a-a72c-55eb0229d11c" SourceId="1" SourceUrl="http://localhost:1129/BookReviewLoginService.svc?xsd=xsd2" />
+    <MetadataFile FileName="BookReviewLoginService.disco" MetadataType="Disco" ID="adac26b9-27cd-4ac4-afc6-4fd68ca7b9f7" SourceId="1" SourceUrl="http://localhost:1129/BookReviewLoginService.svc?disco" />
+    <MetadataFile FileName="BookReviewLoginService2.xsd" MetadataType="Schema" ID="49aa0b2c-9126-48d4-9235-5eda82a56771" SourceId="1" SourceUrl="http://localhost:1129/BookReviewLoginService.svc?xsd=xsd0" />
+    <MetadataFile FileName="BookReviewLoginService.wsdl" MetadataType="Wsdl" ID="8e62bb3f-59ab-417e-8db9-9fb766db3851" SourceId="1" SourceUrl="http://localhost:1129/BookReviewLoginService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
